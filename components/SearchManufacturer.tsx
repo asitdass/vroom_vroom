@@ -41,7 +41,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacture
                               value={query}
                               className="search-manyfacturer__option"
                             >
-                                Create "{query}"
+                                Nothing Found !
                             </Combobox.Option>) : (
                                 filteredManufacturers.map((item)=>(
                                     <Combobox.Option
